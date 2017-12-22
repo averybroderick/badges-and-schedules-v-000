@@ -20,7 +20,5 @@ def assign_rooms(arr)
 end
 
 def printer(arr)
-  arr.each do |speaker|
-    puts speaker
-  end
+    puts batch_badge_creator(arr)
 end
