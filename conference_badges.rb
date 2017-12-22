@@ -20,5 +20,7 @@ def assign_rooms(arr)
 end
 
 def printer(arr)
-  puts assign_rooms(arr)
+  arr.each do |speaker|
+    puts speaker
+  end
 end
